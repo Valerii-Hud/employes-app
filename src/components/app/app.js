@@ -6,10 +6,32 @@ import EmployeersList from '../employeers-list/employeers-list';
 import EmployeersAddForm from '../employeers-add-form/employeers-add-form';
 const App = () => {
   const data = [
-    { name: 'John', surname: 'C.', salary: 600, increase: true },
-    { name: 'Alex', surname: 'R.', salary: 1800, increase: false },
-    { name: 'Carl', surname: 'W.', salary: 900, increase: false },
-    { name: 'Ivan', surname: 'H.', salary: 1500, increase: true },
+    {
+      name: 'John',
+      surname: 'C.',
+      salary: 600,
+      id: 'XFS-FDQ-RGP',
+    },
+    {
+      name: 'Alex',
+      surname: 'R.',
+      salary: 1800,
+      increase: false,
+      id: 'PFQ-BJF-CJS',
+    },
+    {
+      name: 'Carl',
+      surname: 'W.',
+      salary: 900,
+      increase: false,
+      id: 'FPG-DPA-GPS',
+    },
+    {
+      name: 'Ivan',
+      surname: 'H.',
+      salary: 1500,
+      id: 'DPC-GOS-SPA',
+    },
   ];
 
   return (
