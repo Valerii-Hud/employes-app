@@ -40,7 +40,7 @@ const App = () => {
       <div className="search-panel">
         <SearchPanel />
         <AppFilter />
-        <EmployeersList data={data} />
+        <EmployeersList data={data} onDelete={(id) => console.log(id)} />
         <EmployeersAddForm />
       </div>
     </div>
