@@ -99,8 +99,8 @@ class App extends Component {
             onToggleIncrease={this.onToggleIncrease}
             onToggleRise={this.onToggleRise}
           />
-          <EmployeersAddForm onAdd={this.addItem} />
         </div>
+        <EmployeersAddForm onAdd={this.addItem} />
       </div>
     );
   }

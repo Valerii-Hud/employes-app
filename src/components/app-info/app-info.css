@@ -1,7 +1,17 @@
 .app-info {
   padding: 25px;
-  background-color: rgb(9, 4, 78);
+  background-color: rgb(255, 255, 255);
   border-radius: 15px;
   box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.15);
-  color: #fff;
+  border: 1px solid #000;
+  color: #000000;
+  h1,
+  h2,
+  h3 {
+    font-weight: 300;
+  }
+  span {
+    font-family: cursive;
+    font-weight: 400;
+  }
 }

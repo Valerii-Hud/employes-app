@@ -12,6 +12,7 @@
   font-size: 20px;
   cursor: pointer;
   min-width: 550px;
+  font-family: cursive;
 }
 
 .list-group-item input {
@@ -31,11 +32,11 @@
 }
 
 .list-group-item .btn-cookie {
-  color: #e09f3e;
+  color: #825500;
 }
 
 .list-group-item .btn-trash {
-  color: #e5383b;
+  color: #e5282b;
 }
 
 .list-group-item .fa-star {
@@ -44,7 +45,7 @@
   text-align: center;
   line-height: 35px;
   font-size: 16px;
-  color: #ffd700;
+  color: #ffda0a;
   transition: 0.3s all;
   transform: translateX(30px);
   opacity: 0;

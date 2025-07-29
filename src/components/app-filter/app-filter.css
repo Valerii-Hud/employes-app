@@ -1,3 +1,17 @@
 .btn-group {
+  display: flex;
   margin-top: 20px;
+  border: 1px solid #ffffff;
+}
+
+.btn {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  color: #000;
+  &:hover {
+    color: #fff;
+    border: 1px solid rgb(0, 0, 0);
+
+    background-color: #000;
+  }
 }
