@@ -17,7 +17,23 @@ class EmployeersAddForm extends Component {
   };
   onSubmit = (e) => {
     e.preventDefault();
-    this.props.onAdd(this.state.name, this.state.salary);
+    const MIN_NAME_LENGTH = 3,
+      MAX_NAME_LENGTH = 100,
+      MIN_SALARY = 500;
+    const name = this.state.name,
+      salary = this.state.salary;
+    const nameTemplate = /\d/;
+
+    if (
+      name.length >= MIN_NAME_LENGTH &&
+      name.length <= MAX_NAME_LENGTH &&
+      salary >= MIN_SALARY &&
+      !nameTemplate.test(name)
+    ) {
+      this.props.onAdd(this.state.name, this.state.salary);
+    } else {
+      console.warn('Something went wrong');
+    }
     this.setState({
       name: '',
       salary: '',
