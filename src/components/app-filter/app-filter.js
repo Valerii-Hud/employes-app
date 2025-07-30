@@ -7,7 +7,7 @@ const AppFilter = () => {
         All employeers
       </button>
       <button className="btn btn-outline-light" type="button">
-        For a raise
+        For a rise
       </button>
       <button className="btn btn-outline-light" type="button">
         Salary over $1000
